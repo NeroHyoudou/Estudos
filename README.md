@@ -1,4 +1,3 @@
-# Estudos: Git/Versionamento
-## Gravando mudanças
+# Estudos: Git
 
-# Modificações
+## Modificações
