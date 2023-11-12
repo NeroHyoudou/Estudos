@@ -17,7 +17,7 @@
 
 ## TIPOS DE DADOS
 
-* INICIO
+* INICIO Principal
 
 VAR n1: INTEIRO
 VAR n2: INTEIRO
@@ -58,3 +58,24 @@ mostrar MENSAGEM, NOME
 
 FIM
 
+* INICIO Principal
+
+VAR nome: NERO
+VAR hora: INTEIRO
+VAR mensagem: STRING
+
+MOSTRAR "Digite seu nome"
+ESPERAR_DIGITACAO -> nome
+MOSTRAR "Digite hora atual (somente a hora)"
+ESPERAR DIGITACAO ->
+
+SE (hora MAIOR_QUE 0) E (hora MENOR_QUE 12)
+    DEFINIR "Bom Dia" -> mensagem
+SE (hora MAIOR_OU_IGUAL_A 12) E (hora MENOR_QUE 18)
+    DEFINIR "Boa Tarde" -> mensagem
+SE (hora MAIOR_OU_IGUAL_A 18) E (hora MENOR_QUE 24)
+    DEFINIR "Boa Noite" -> mensagem
+
+MOSTRAR mensagem, nome
+
+FIM
