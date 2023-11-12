@@ -4,7 +4,15 @@
 * comando git push
 * comando git pull
 * comando git fetch
-  
+* comando git staged
+* comando git add
+* comando git config
+* comando git log
+* comando git pull
+* comando git diff
+* comando git remote
+* comando git commit
+
 #  Estudos: Algoritmos
 
 * INICIO Principal
