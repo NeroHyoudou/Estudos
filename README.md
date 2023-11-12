@@ -1,6 +1,6 @@
 # Estudos: Git
 
-## Modificações
+## MODIFICAÇÕES
 * comando git push
 * comando git pull
 * comando git fetch
@@ -15,7 +15,9 @@
 
 #  Estudos: Algoritmos
 
-* INICIO Principal
+## TIPOS DE DADOS
+
+* INICIO
 
 VAR n1: INTEIRO
 VAR n2: INTEIRO
@@ -31,3 +33,28 @@ ESPERAR_DIGITACAO -> n2
 SOMAR n1, n2 -> resultado
 MOSTRAR resultado
 FIM
+
+## DECISÃO
+
+* INICIO
+
+mostrar "Digite seu nome"
+armazenar o nome na variável NOME
+mostrar "Que Horas São?"
+armazenar a hora na variável HORA_ATUAL
+avaliar valor em HORA_ATUAL
+
+0 a 12
+armazenar "Bom Dia" em MENSAGEM
+
+12 a 18
+armazenar "Boa Tarde" em MENSAGEM
+
+18 a 24
+armazenar "Boa Noite" em MENSAGEM
+
+
+mostrar MENSAGEM, NOME
+
+FIM
+
