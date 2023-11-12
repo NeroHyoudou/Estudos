@@ -1,6 +1,10 @@
-# Estudos: Git
+# CURSO LET'S CODE
+
+
+# ESTUDOS: Git
 
 ## MODIFICAÇÕES
+
 * comando git push
 * comando git pull
 * comando git fetch
@@ -13,25 +17,26 @@
 * comando git remote
 * comando git commit
 
-#  Estudos: Algoritmos
+#  ESTUDOS: Algoritmo
 
 ## TIPOS DE DADOS
 
 * INICIO Principal
 
-VAR n1: INTEIRO
-VAR n2: INTEIRO
-VAR Resultado: INTEIRO
+ VAR n1: INTEIRO
+ VAR n2: INTEIRO
+ VAR Resultado: INTEIRO
 
-DEFINIR 0 -> n1
-DEFINIR 0 -> n2
+  DEFINIR 0 -> n1
+ DEFINIR 0 -> n2
 
-MOSTRAR "Digite o primeiro numero"
-ESPERAR_DIGITACAO -> n1
-MOSTRAR "Digite o segundo numero"
-ESPERAR_DIGITACAO -> n2
-SOMAR n1, n2 -> resultado
-MOSTRAR resultado
+ MOSTRAR "Digite o primeiro numero"
+ ESPERAR_DIGITACAO -> n1
+ MOSTRAR "Digite o segundo numero"
+ ESPERAR_DIGITACAO -> n2
+ SOMAR n1, n2 -> resultado
+ MOSTRAR resultado
+
 FIM
 
 ## DECISÃO
@@ -60,22 +65,37 @@ FIM
 
 * INICIO Principal
 
-VAR nome: NERO
-VAR hora: INTEIRO
-VAR mensagem: STRING
+ VAR nome: NERO
+ VAR hora: INTEIRO
+ VAR mensagem: STRING
 
-MOSTRAR "Digite seu nome"
-ESPERAR_DIGITACAO -> nome
-MOSTRAR "Digite hora atual (somente a hora)"
-ESPERAR DIGITACAO ->
+  MOSTRAR "Digite seu nome"
+ ESPERAR_DIGITACAO -> nome
+ MOSTRAR "Digite hora atual (somente a hora)"
+ ESPERAR DIGITACAO ->
 
-SE (hora MAIOR_QUE 0) E (hora MENOR_QUE 12)
+ SE (hora MAIOR_QUE 0) E (hora MENOR_QUE 12)
     DEFINIR "Bom Dia" -> mensagem
-SE (hora MAIOR_OU_IGUAL_A 12) E (hora MENOR_QUE 18)
+ SE (hora MAIOR_OU_IGUAL_A 12) E (hora MENOR_QUE 18)
     DEFINIR "Boa Tarde" -> mensagem
-SE (hora MAIOR_OU_IGUAL_A 18) E (hora MENOR_QUE 24)
+ SE (hora MAIOR_OU_IGUAL_A 18) E (hora MENOR_QUE 24)
     DEFINIR "Boa Noite" -> mensagem
 
-MOSTRAR mensagem, nome
+ MOSTRAR mensagem, nome
+
+FIM
+
+## REPETIÇÃO
+
+* INICIO Principal
+
+ VAR soma: INTEIRO
+ ARMAZENAR 0 -> soma
+ ENQUANTO soma MENOR QUE 100
+   MOSTRAR "Digite um numero"
+   ESPERAR DIGITACAO -> numero
+   SOMAR soma, numero -> soma
+ FIM ENQUANTO
+ MOSTRAR soma
 
 FIM
